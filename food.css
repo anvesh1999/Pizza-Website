@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+h1{
+    text-align: center;
+    font-style: italic;
+    font-family: cursive;
+    font-size: 50px;
+    color: rgb(255, 115, 0);
+    padding: 20px;
+}
+nav{
+    background-color: rgb(255, 115, 0);
+    display: grid;
+    place-items: center;
+}
+nav u1{
+    list-style-type: none;
+}
+nav ul a{
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    transition: 0.2s ease-in;
+    font-size: 18px;
+}
+nav ul a:hover{
+    background-color: rgb(255, 115, 0);   
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 30px 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+}
+.item img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s all;
+    
+
+}
+.item img:hover{
+    transform: scale(1.04);
+}
+.item h4{
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+.item button{
+    padding: 5px 30px;
+    border: none;
+    outline: none;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    transition: 0.2s all;
+}
+.item button:hover{
+    transform: scale(1.04);
+}
+
+.aboutpage{
+    font-size: 25px;
+    padding: 45px;
+    margin:auto ;
+    font-family: cursive;
+  }
+  
+  .contactInfo a{
+   display: flex;
+   border-bottom: 1px transparent;
+   transition: border-bottom 0.5s; 
+   color: rgb(255, 115, 0);
+   text-decoration: none;
+   transition: color 0.5s;
+   font-family: cursive;
+  
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[
